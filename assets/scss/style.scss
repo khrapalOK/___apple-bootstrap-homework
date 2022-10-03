@@ -1,0 +1,9 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "logo";
+@import "btn";
+@import "common";
+
+.card-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
