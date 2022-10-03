@@ -113,7 +113,7 @@
         <div class="container container__modal-button ">
           <button type="button" class="btn btn__modal btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <span class="text-white">
-              АВТОРИЗАЦИЯ
+              Предзаказ
             </span>
           </button>
         </div>
@@ -128,16 +128,47 @@
               <div class="modal-body">
                 <form>
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Почта</label>
+                    <label for="exampleInputEmail1" class="form-label">Имя</label>
                     <input type="email" class="form-control" id="exampleInputEmail1">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                    <label for="exampleInputPassword1" class="form-label">Фамилия</label>
                     <input type="password" class="form-control" id="exampleInputPassword1">
                   </div>
+
+                  <label class="form-label">Какой цвет iPhone Вы бы хотели заказать?</label>
                   <div class="mb-3 form-check">
+                    <input class="form-check-input" checked id="red" type="checkbox" name="iphone1" value="red">
+                    <label class="form-check-label" for="red">Red</label>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input class="form-check-input" checked id="black" type="checkbox" name="iphone2" value="black">
+                    <label class="form-check-label" for="black">black</label>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input class="form-check-input" checked id="white" type="checkbox" name="iphone3" value="white">
+                    <label class="form-check-label" for="white">White</label>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input class="form-check-input" checked id="silver" type="checkbox" name="iphone4" value="silv">
+                    <label class="form-check-label" for="silver">Silver</label>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input class="form-check-input" checked id="moonspace" type="checkbox" name="iphone5" value="msp">
+                    <label class="form-check-label" for="moonspace">Moon space</label>
+                  </div>
+                  <label for="floatingTextarea" class="form-label">Оставьте ваш коментарий к предзаказу</label>
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">комментарий</label>
+                  </div>
+                  <div class="mb-3">
+                    <label for="telephoneNumber" class="form-label">Номер телефона</label>
+                    <input type="tel" class="form-control" id="telephoneNumber" placeholder="+380">
+                  </div>
+                  <div class="mb-3 mt-3 form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Запомнить меня</label>
+                    <label class="form-check-label" for="exampleCheck1">перезвонитть мне</label>
                   </div>
                 </form>
               </div>
